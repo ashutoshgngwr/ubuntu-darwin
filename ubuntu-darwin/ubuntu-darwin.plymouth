@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Ubuntu Darwin Plymouth
+Description=A Mac OS X like plymouth for Ubuntu
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/ubuntu-darwin
+ScriptFile=/usr/share/plymouth/themes/ubuntu-darwin/ubuntu-darwin.script
