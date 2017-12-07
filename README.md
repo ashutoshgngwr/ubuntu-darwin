@@ -27,6 +27,7 @@ Finally update your `initramfs` to see changes on reboot
 
     sudo update-alternatives --remove default.plymouth /usr/share/plymouth/themes/ubuntu-darwin/ubuntu-darwin.plymouth
     sudo rm -R /usr/share/plymouth/themes/ubuntu-darwin
+    sudo update-initramfs -u
     
     
 ## Credits
